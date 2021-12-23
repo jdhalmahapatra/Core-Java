@@ -1,0 +1,54 @@
+//If-Else Statement
+If statement in Java is a simple decision-making statement. 
+It is used to decide whether the statement or block of statements will be executed or not. 
+Block of statements will be executed if the given condition is true otherwise the block of the statement will be skipped.
+
+Syntax:
+if(condition){
+    // Statement to executed
+}
+else{
+    //Statement to executed
+}
+
+//If-Else Ladder or if else if
+if-else-if statement is always be executed from the top down. 
+During the execution of conditions if any condition founds true, then the statement associated with that if it is executed, 
+and the rest of the code will be skipped. 
+If none of the conditions is true, then the final else statement will be executed.
+
+Syntax:
+if(condition){
+    // Statement to executed
+}
+else if(condition){
+    // Statement to executed
+}
+else{
+    //Statement to executed
+}
+
+
+//Nested If Else
+Nested If Else basically means an If Else statement inside another If Else statement. You often have to check sub-conditions within existing conditions.
+
+//Switch Case
+It is very similar to multiple If Else statements, 
+but the only difference being that Switch case statements are strictly used only when we have to only check the value of a variable and only then take an action. 
+It is recommended to use If Else statements in those situations where you might have to check some additional conditions besides the value of a single variable.
+
+Syntax:
+switch (variable/expression) {
+            case value1:
+                //Code to executed
+                break;
+            case value2:
+                //Code to executed
+                break;
+            .
+            .
+            .
+
+            default:
+                break;
+        }

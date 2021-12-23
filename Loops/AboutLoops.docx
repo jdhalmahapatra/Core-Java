@@ -1,0 +1,30 @@
+//While Loop
+While loop allows code to be executed repeatedly until a condition is satisfied. 
+If the number of iterations is not fixed, it is recommended to use a while loop.
+
+Syntax:
+while(condition)
+{
+   // Body of while loop
+}
+
+//For Loop
+It is a part of a control statements. If block of codes 
+needs to be executed several times, then it is better to use
+For Loop.
+
+Syntax:
+for(initialization; condition; increment/decrement)
+{
+   // Body of for loop
+}
+
+//Do While Loop
+It is like a while loop, It also allows code to be executed repeatedly until a condition is satisfied. 
+The only difference that it checks for the condition after the execution of the body of the loop. 
+
+Syntax:
+do
+{
+   // Body of loop
+} While(condition);
