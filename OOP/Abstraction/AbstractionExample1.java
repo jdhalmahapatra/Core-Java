@@ -1,2 +1,3 @@
-package OOP.Abstraction;public class AbstractionExample1 {
+package OOP.Abstraction;
+public class AbstractionExample1 {
 }
